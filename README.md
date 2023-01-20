@@ -6,3 +6,5 @@ Observação: Para fins didáticos vamos evitar esse comando, pois o código dos
 ```
 npx sequelize model:generate --name User.model --attributes fullName:string
 ```
+
+Caso seja necessário explicitar o nome da tabela, pode-se fazer isso apenas acrescentando um outro parâmetro na função do model, o tableName, como você pode ver mais https://sequelize.org/docs/v6/core-concepts/model-basics/#providing-the-table-name-directly.
